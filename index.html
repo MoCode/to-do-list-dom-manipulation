@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To Do List</title>
+    <script src="https://kit.fontawesome.com/9f65f051d0.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="task-card">
+            <h1 class="head">To Do List</h1>
+            <form class="task-form">
+                <input type="text" id="input" placeholder="Enter Task">
+                <!-- <label for="input">Enter your Task</label> -->
+                <a class="btn btn-submit">Send Task</a>
+            </form>
+        </div>
+        <div class="task-card">
+            <h1>Tasks</h1>
+            <input type="text" id="filter" placeholder="Filter Items">
+            <ul class="collection">
+                <li class="collection-item">Beispiel 1 <a href="#" class="remove-item"><i class="fas fa-skull"></i></a>
+                </li>
+                <li class="collection-item">Beispiel 2 <a href="#" class="remove-item"><i class="fas fa-skull"></i></a>
+                </li>
+            </ul>
+            <a href="#" class="btn btn-clear">Clear All Tasks</a>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="app.js"></script>
+</body>
+
+</html>

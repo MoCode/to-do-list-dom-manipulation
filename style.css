@@ -1,0 +1,96 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=BioRhyme:300|Muli:700&display=swap');
+
+/* font-family: 'Muli', sans-serif;
+font-family: 'BioRhyme', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'BioRhyme', serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Muli', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+input {
+    margin: 25px 0px 10px 0px;
+    padding: 5px 0;
+}
+
+input[type="text"] {
+    font-family: 'BioRhyme', serif;
+    outline: none;
+    border-style: none;
+    border-bottom: 1px solid #000;
+    padding-left: 10px;
+    color: #000;
+}
+
+ul {
+    margin: 10px 0 5px 0;
+}
+
+li {
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+li a i {
+    margin-left: 20px;
+}
+
+.btn {
+    text-align: center;
+    padding: 5px;
+    border: 0.2px solid #000;
+}
+
+.btn-submit:hover {
+    background: #000;
+    color: #fff;
+}
+
+.btn-clear {
+    background: #000;
+    color: #fff;
+    margin-top: 5px;
+}
+
+/* Tasklist */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.task-card {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.task-card .task-form {
+    display: flex;
+    flex-direction: column;
+}
